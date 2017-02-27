@@ -7,12 +7,16 @@
     },
     "LANG": {
       "required": true
-    }
+    },
   },
   "formation": {},
   "addons": [
     "deployhooks:http",
     "mongolab:sandbox"
   ],
-  "buildpacks": []
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
 }
