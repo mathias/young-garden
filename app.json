@@ -7,7 +7,7 @@
     },
     "LANG": {
       "required": true
-    },
+    }
   },
   "formation": {},
   "addons": [
