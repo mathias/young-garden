@@ -4,6 +4,7 @@
   "env": {
     "FOO": {
       "required": true
+    },
     "LANG": {
       "required": true
     },
