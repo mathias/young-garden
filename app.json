@@ -7,7 +7,7 @@
     },
     "LANG": {
       "required": true
-    },
+    }
   },
   "formation": {},
   "addons": [
@@ -15,12 +15,6 @@
     "mongolab:sandbox"
   ],
   "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/ejholmes/heroku-buildpack-bower"
-    },
     {
       "url": "heroku/ruby"
     }
