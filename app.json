@@ -24,5 +24,10 @@
     {
       "url": "heroku/ruby"
     }
+  ],
+  "addons":  [
+    {
+      "plan": "herokuconnect:enterprise"
+    }
   ]
 }
